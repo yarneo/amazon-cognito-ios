@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
                      :tag => s.version}
   s.requires_arc = true
   s.library      = 'sqlite3'
-  s.dependency 'AWSCore', :git => 'https://github.com/yarneo/aws-sdk-ios'
 
   s.deprecated = true
   s.deprecated_in_favor_of = 'AWSCognito'
