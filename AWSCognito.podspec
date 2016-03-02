@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
                      :tag => s.version}
   s.requires_arc = true
   s.library      = 'sqlite3'
-  s.dependency 'AWSCore'
 
   s.source_files = 'CognitoSync/*.{h,m}', 'Cognito/*.{h,m}', 'Cognito/**/*.{h,m}'
   s.public_header_files = 'Cognito/*.h', 'CognitoSync/*.h'
