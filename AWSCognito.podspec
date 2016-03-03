@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = 'Amazon Software License'
   s.author       = { 'Amazon Web Services' => 'amazonwebservices' }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => 'https://github.com/aws/amazon-cognito-ios.git',
+  s.source       = { :git => 'https://github.com/yarneo/amazon-cognito-ios.git',
                      :tag => s.version}
   s.requires_arc = true
   s.library      = 'sqlite3'
